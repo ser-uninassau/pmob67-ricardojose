@@ -1,0 +1,2 @@
+rootProject.name='aplicativobuscarcep'
+include ':app'
