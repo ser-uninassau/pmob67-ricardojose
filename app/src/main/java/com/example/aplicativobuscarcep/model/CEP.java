@@ -14,6 +14,20 @@ public class CEP {
     private String ibge;
     private String gia;
 
+    public CEP() {
+        this.cep = cep;
+        this.logradouro = null;
+        this.complemento = null;
+        this.bairro = null;
+        this.localidade = null;
+        this.uf = null;
+        this.unidade = null;
+        this.ibge = null;
+        this.gia = null;
+    }
+
+
+
     public String getCep() {
         return cep;
     }
@@ -86,6 +100,9 @@ public class CEP {
         this.gia = gia;
     }
 
+
+
+
     @NonNull
     @Override
     public String toString() {
@@ -97,3 +114,4 @@ public class CEP {
                 + "\nEstado: " + getUf();
     }
 }
+
